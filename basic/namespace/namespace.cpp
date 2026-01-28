@@ -36,3 +36,7 @@ int main2()
   OnlyInThisFile();
   only_in_this_file = 3;
 }
+
+/*
+권장하는 방식은 using namespace std; 를 사용하지 않고 std:: 를 직접 앞에 붙이는 방식으로 명시해주는 것이 좋음
+*/
