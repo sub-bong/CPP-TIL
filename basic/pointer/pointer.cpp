@@ -1,11 +1,10 @@
 #include <iostream>
 /* 포인터도 변수 */
 
-int main()
-{
+int main() {
   int a;
   int b;
-  int *p;
+  int* p;
 
   p = &a;
   *p = 2;
